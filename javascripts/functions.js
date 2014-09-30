@@ -8,7 +8,7 @@
     var length;
     var index;
 
-    $('.loader .bar').addClass('load');
+    //$('.loader .bar').addClass('load');
 
     $('.flexslider').flexslider({
         animation: "swing",
@@ -179,10 +179,10 @@
 
 })(jQuery);
 
-$(window).load(function(){
-    setTimeout(showSite,1000);
-});
-
-function showSite(){
-    $('.loader').addClass('loaded');
-}
+//$(window).load(function(){
+//    setTimeout(showSite,1000);
+//});
+//
+//function showSite(){
+//    $('.loader').addClass('loaded');
+//}

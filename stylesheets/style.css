@@ -735,7 +735,7 @@ section, .top, footer {
     position: absolute;
     text-align: left;
     width: 1070px;
-    height: 300px;
+    /*height: 300px;*/
     z-index: 99;
     left: 50%;
     margin-left: -535px;
@@ -773,12 +773,13 @@ section, .top, footer {
         height: 120px; }
       /* line 711, /Users/kaj/Dropbox/Freelance/Themanoid/Themes/Human/upload/dev-mac/source/stylesheets/style.scss */
       #contact .info {
+        text-align: center;
         width: 100%;
         position: relative;
         margin: 0;
         left: 0;
         top: 0;
-        padding: 0 15px;
+        padding: 15px;
         height: auto; } }
 
 /*
