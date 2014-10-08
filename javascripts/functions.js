@@ -43,23 +43,24 @@
                 }, 500, 'easeInOutExpo');
             }
             e.preventDefault();
-        } else if(!$(this).hasClass('item')) {
-            var url = $(this).attr('href');
-            $('body').fadeOut(600, function(){
-                window.location = url;
-            });
-            e.preventDefault();
         }
+        //else if(!$(this).hasClass('item')) {
+        //    var url = $(this).attr('href');
+        //    $('body').fadeOut(600, function(){
+        //        window.location = url;
+        //    });
+        //    e.preventDefault();
+        //}
     });
 
 	$(window).scroll(function(){
         var scrolled = $(window).scrollTop();
         $('.fs').each(function(){
-            $('.fs').css('top', (scrolled * .2) + 'px');         
+            $('.fs').css('top', (scrolled * .2) + 'px');
         });
         $('.fo').each(function(){
             var opa = 1-(scrolled*.0015);
-            $('.fo').css('opacity', opa);   
+            $('.fo').css('opacity', opa);
         });
     });
 
@@ -105,7 +106,7 @@
         length = $(this).parent().find('.item').length;
         index = 1+($(this).parent().find('a').index(this));
         lightboxInit(newItem);
-        
+
     });
 
     function lightboxInit(e){
@@ -122,7 +123,7 @@
             $('.lightbox .prev').fadeIn(200);
         href = item.attr('href');
         $('.lightbox').addClass('show');
-        
+
         $('.lightbox .title h3').html('');
         $('.lightbox .description p').html('');
 
