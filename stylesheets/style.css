@@ -73,7 +73,7 @@ h4 {
 /* line 152, /Users/kaj/Dropbox/Freelance/Themanoid/Themes/Human/upload/dev-mac/source/stylesheets/style.scss */
 p {
   color: #777;
-  font-size: .9em;
+  font-size: 1em;
   font-family: "Lato", Arial, sans-serif; }
 
 /*
@@ -394,7 +394,7 @@ section, .top, footer {
     text-shadow: 0 0 0; }
   /* line 419, /Users/kaj/Dropbox/Freelance/Themanoid/Themes/Human/upload/dev-mac/source/stylesheets/style.scss */
   .top.affix-top.light nav ul li a {
-    color: #999; }
+    color: #111; }
   /* line 426, /Users/kaj/Dropbox/Freelance/Themanoid/Themes/Human/upload/dev-mac/source/stylesheets/style.scss */
   .top.affix, .top.affix-bottom, .top.affix.light, .top.affix-bottom.light {
     background: #333;
@@ -746,8 +746,12 @@ section, .top, footer {
     /* line 675, /Users/kaj/Dropbox/Freelance/Themanoid/Themes/Human/upload/dev-mac/source/stylesheets/style.scss */
     #contact .info h1, #contact .info h2, #contact .info h3, #contact .info h4, #contact .info h5, #contact .info h6, #contact .info a {
       color: #fff; }
+    #about .info a {
+        color: #777; }
+    #about .info a.icon:hover {
+        color: #fff; }
     /* line 687, /Users/kaj/Dropbox/Freelance/Themanoid/Themes/Human/upload/dev-mac/source/stylesheets/style.scss */
-    #contact .info .icon {
+    #contact .info .icon, #about .info .icon {
       display: inline-block;
       border: 1px solid #777;
       width: 30px;
@@ -756,7 +760,7 @@ section, .top, footer {
       font-size: 14px;
       margin: 10px 3px; }
       /* line 695, /Users/kaj/Dropbox/Freelance/Themanoid/Themes/Human/upload/dev-mac/source/stylesheets/style.scss */
-      #contact .info .icon:hover {
+      #contact .info .icon:hover, #about .info .icon:hover {
         background: #222; }
   /* line 700, /Users/kaj/Dropbox/Freelance/Themanoid/Themes/Human/upload/dev-mac/source/stylesheets/style.scss */
   #contact textarea {
@@ -1022,6 +1026,7 @@ img {
     position: relative; }
     /* line 930, /Users/kaj/Dropbox/Freelance/Themanoid/Themes/Human/upload/dev-mac/source/stylesheets/style.scss */
     .member .img img {
+      width: 100%;
       position: relative;
       max-width: 100%; }
     /* line 934, /Users/kaj/Dropbox/Freelance/Themanoid/Themes/Human/upload/dev-mac/source/stylesheets/style.scss */
