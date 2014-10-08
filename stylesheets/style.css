@@ -750,6 +750,12 @@ section, .top, footer {
         color: #777; }
     #about .info a.icon:hover {
         color: #fff; }
+
+    @media screen and (max-width: 992px) {
+        #about img {
+            max-width: 50%;
+        }
+    }
     /* line 687, /Users/kaj/Dropbox/Freelance/Themanoid/Themes/Human/upload/dev-mac/source/stylesheets/style.scss */
     #contact .info .icon, #about .info .icon {
       display: inline-block;
