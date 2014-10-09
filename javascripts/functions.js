@@ -42,6 +42,11 @@
                   scrollTop: target.offset().top - 60
                 }, 500, 'easeInOutExpo');
             }
+
+            if (("history" in window) && ("pushState" in history)) {
+                history.pushState(this.hash, this.hash, this.hash);
+            }
+
             e.preventDefault();
         }
         //else if(!$(this).hasClass('item')) {
