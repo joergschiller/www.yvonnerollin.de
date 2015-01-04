@@ -913,7 +913,8 @@ img.fs, img.bg {
 
 /* line 839, /Users/kaj/Dropbox/Freelance/Themanoid/Themes/Human/upload/dev-mac/source/stylesheets/style.scss */
 blockquote {
-  margin: 40px 0;
+  font-size: 1em;
+  margin: 10px 0;
   border-color: #333; }
 
 /* line 844, /Users/kaj/Dropbox/Freelance/Themanoid/Themes/Human/upload/dev-mac/source/stylesheets/style.scss */
