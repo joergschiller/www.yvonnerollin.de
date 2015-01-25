@@ -63,18 +63,23 @@ h1 {
     h1 {
       font-size: 2em; } }
 
+h3 {
+  font-size: 1.3em;
+}
+
 /* line 145, /Users/kaj/Dropbox/Freelance/Themanoid/Themes/Human/upload/dev-mac/source/stylesheets/style.scss */
 h4 {
   font-size: .7em;
   letter-spacing: 2px;
   font-weight: 700;
-  text-transform: uppercase; }
+  text-transform: uppercase;
+  line-height: 1.5em;
+  margin-top: 3em; }
 
 /* line 152, /Users/kaj/Dropbox/Freelance/Themanoid/Themes/Human/upload/dev-mac/source/stylesheets/style.scss */
 p {
-  color: #777;
   font-size: 1em;
-  font-family: "Lato", Arial, sans-serif; }
+}
 
 /*
 	03
